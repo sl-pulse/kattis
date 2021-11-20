@@ -1,5 +1,6 @@
 <?php
 //https://open.kattis.com/problems/addingwords
+//Running Time: 0.01s
 if (STDIN){
     while(($line=fgets(STDIN)) != FALSE){
         $input[]=trim($line);
