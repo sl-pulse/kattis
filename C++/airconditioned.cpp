@@ -1,5 +1,6 @@
 //https://open.kattis.com/problems/airconditioned
 //Running Time: 0.01s
+
 #include <bits/stdc++.h>
 using namespace std;
  
