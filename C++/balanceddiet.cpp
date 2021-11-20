@@ -1,6 +1,5 @@
 //https://open.kattis.com/problems/balanceddiet
 //Running Time: 0.43s
-
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
