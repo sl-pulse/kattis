@@ -10,8 +10,10 @@ if (STDIN){
     }
     fclose(STDIN);
 }
+
 $ball=array(1,2,3);
 $length=count($input);
+
 for ($i=0; $i<$length; $i++){
     $case=$input[$i];
     if ($case=="A"){
