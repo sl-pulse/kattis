@@ -1,0 +1,43 @@
+<?php
+//https://open.kattis.com/problems/synchronizinglists
+//Running Time: 0.04s
+
+if (STDIN) {
+    while (($line = fgets(STDIN, 4096)) !== false) {
+        $in[]=$line;
+    }
+    if (!feof(STDIN)) {
+        echo "Error: unexpected fgets() fail\n";
+    }
+    fclose(STDIN);
+}
+$start=$in[0];
+$out=array();
+for ($i=1; $i<count($in);){
+    for ($j=0; $j<2; $j++){
+        for ($m=0; $m<$start; $m++){
+            $temp[$j][$m]=(int)$in[$i];
+            $i++;
+        }
+    }
+    $series_a=$temp[0];
+    $sorted_b=$temp[1];
+    $sorted_a=$series_a;
+    sort($sorted_a);
+    sort($sorted_b);
+    for ($n=0; $n<count($sorted_a); $n++){
+        $order=array_search($sorted_a[$n], $series_a);
+        $output[$order]=$sorted_b[$n];
+    }
+    ksort($output);
+    foreach ($output as $out){
+        printf ($out."\n");
+        }
+    if ($in[$i] == 0) {
+        break;
+    }
+    else{
+    $start=$in[$i];
+    $i++;
+    }
+}
