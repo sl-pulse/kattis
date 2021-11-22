@@ -12,18 +12,13 @@ if (STDIN) {
             if ($start==$end){
              echo "0\n";
             }
-            //else if ($set==1) {
             else{
                 $counter=0;
                 $checked=array();    
                 echo primePath($end, $start)."\n";
                 $set++;
             }
-            //else if ($set==2){
-               // usleep(8000000);
-              //  echo "8\n";
-            //}
-     }
+        }
     }
     if (!feof(STDIN)) {
         echo "Error: unexpected fgets() fail\n";
@@ -85,9 +80,6 @@ function primeArray ($num, $target){
     return $array;
 }//end of function
 function isPrime($num) {
- //   if($num % 2 == 0) {
- //       return FALSE;
- //   }
     for($i = 3; $i <= ceil(sqrt($num)); $i = $i + 2) {
         if($num % $i == 0)
         return FALSE;
