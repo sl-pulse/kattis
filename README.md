@@ -1,5 +1,6 @@
 # Kattis
-Kattis hosts prestigious competitive programming competition like ICPC World Finals.\ 
+Kattis hosts prestigious competitive programming competition like ICPC World Finals.
+\ 
 Open Katts is an automated online system that tests and judges user submitted solutions to the programming problems hosted.\ 
 Users are ranked by the biggest number of accepted solutions and/or shortest execution time for a particular problem.\
 \
