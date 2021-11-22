@@ -1,6 +1,6 @@
 # Kattis
 Kattis hosts prestigious competitive programming competition like ICPC World Finals.  
-Open Katts is an automated online system that tests and judges user submitted solutions to the programming problems hosted.  
+Open Katts is an online AI system that tests and judges user submitted solutions to the programming problems hosted.  
 Users are ranked by the biggest number of accepted solutions and/or shortest execution time for a particular problem.  
     
 See my profile on: https://open.kattis.com/users/silvena-lam/
